@@ -94,6 +94,8 @@ section {
 .gallery-photo .painting p {
   padding: 30px;
   color: white;
+  font-size: 18px;
+  font-weight: bold;
   margin-top: auto;
 }
 
@@ -183,19 +185,6 @@ section {
   transition: 0.3s;
 }
 
-.gallery-photo .painting .picture2 .black-bg h1 {
-  margin: auto;
-  color: white;
-  padding: 0;
-  font-size: 70px;
-}
-
-.gallery-photo .painting .picture2 .black-bg p {
-  padding: 30px;
-  color: white;
-  margin-top: auto;
-}
-
 .gallery-photo .painting .picture3 {
   height: 600px;
   background: url(/src/img/evening-in-chicago-black-and-white-paintings-kathleen-patrick.jpg) 50% 50%/cover no-repeat;
@@ -237,19 +226,6 @@ section {
   transition: 0.3s;
 }
 
-.gallery-photo .painting .picture3 .black-bg h1 {
-  margin: auto;
-  color: white;
-  padding: 0;
-  font-size: 70px;
-}
-
-.gallery-photo .painting .picture3 .black-bg p {
-  padding: 30px;
-  color: white;
-  margin-top: auto;
-}
-
 .gallery-photo .painting .picture4 {
   height: 600px;
   background: url(/src/img/2824966-CJHGLNZH-7.jpg) 50% 50%/cover no-repeat;
@@ -289,19 +265,6 @@ section {
   color: transparent;
   -webkit-transition: 0.3s;
   transition: 0.3s;
-}
-
-.gallery-photo .painting .picture4 .black-bg h1 {
-  margin: auto;
-  color: white;
-  padding: 0;
-  font-size: 70px;
-}
-
-.gallery-photo .painting .picture4 .black-bg p {
-  padding: 30px;
-  color: white;
-  margin-top: auto;
 }
 
 @-webkit-keyframes slide-rotate-hor-top {
