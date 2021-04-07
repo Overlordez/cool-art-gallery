@@ -39,18 +39,17 @@ body {
 }
 
 section {
-    margin: 100px 0px;
+    padding-top: 100px;
 }
 
 .pre-section {
-    height: 95%;
     background: url(/src/img/pre-section-img.jpeg) 50% 50% / cover no-repeat;
     font-family: "Alatsi", sans-serif;
     .black-bg {
         height: 100%;
         background-color: rgba(0, 0, 0, 0.856);
         .pre-title {
-            margin-top: 80px;
+            margin-top: 100px;
             -webkit-animation: slide-rotate-hor-top 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
             animation: slide-rotate-hor-top 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
         }
@@ -70,88 +69,170 @@ section {
     background-color: white;
     padding: 20px;
 
-    .painting{
+    .painting {
         width: 500px;
         margin: auto;
-        img{
+        h1 {
+            margin: auto;
+            color: white;
+            padding: 0;
+            font-size: 70px;
+        }
+        p {
+            padding: 30px;
+            color: white;
+            margin-top: auto;
+        }
+        img {
             max-width: 100%;
         }
-        .picture1{
+
+        .picture1 {
             height: 600px;
             background: url(/src/img/black-and-white-abstract-painting-julia-fine-art.jpg) 50% 50% / cover no-repeat;
-            transition: .3s;
-            &:hover{
-                transition: .3s;
+            transition: 0.3s;
+            &:hover {
+                transition: 0.3s;
                 transform: scale(1.1);
             }
-           
-            .black-bg{
+
+            .black-bg {
                 background-color: rgba(0, 0, 0, 0.808);
                 height: 100%;
                 vertical-align: middle;
                 text-align: center;
-                transition: .5s;
-                &:hover{
+                transition: 0.5s;
+                &:hover {
                     background-color: transparent;
-                    transition: .5s;
-                    h1{
+                    transition: 0.5s;
+                    h1 {
                         color: transparent;
-                        transition: .3s;
+                        transition: 0.3s;
                     }
-                    p{
+                    p {
                         color: transparent;
-                        transition: .3s;
+                        transition: 0.3s;
                     }
-
                 }
-                h1{
-                   margin: auto;
+                
+            }
+        }
+        .picture2 {
+            height: 600px;
+            background: url(/src/img/ed0a7f0730e1506d6a4592c84f235b05.jpg) 50% 50% / cover no-repeat;
+            transition: 0.3s;
+            &:hover {
+                transition: 0.3s;
+                transform: scale(1.1);
+            }
+
+            .black-bg {
+                background-color: rgba(0, 0, 0, 0.808);
+                height: 100%;
+                vertical-align: middle;
+                text-align: center;
+                transition: 0.5s;
+                &:hover {
+                    background-color: transparent;
+                    transition: 0.5s;
+                    h1 {
+                        color: transparent;
+                        transition: 0.3s;
+                    }
+                    p {
+                        color: transparent;
+                        transition: 0.3s;
+                    }
+                }
+                h1 {
+                    margin: auto;
                     color: white;
                     padding: 0;
                     font-size: 70px;
                 }
-                p{
+                p {
                     padding: 30px;
                     color: white;
                     margin-top: auto;
                 }
             }
         }
-        .picture2{
+
+        .picture3 {
             height: 600px;
-            background: url(/src/img/ed0a7f0730e1506d6a4592c84f235b05.jpg) 50% 50% / cover no-repeat;
-            transition: .3s;
-            &:hover{
-                transition: .3s;
+            background: url(/src/img/evening-in-chicago-black-and-white-paintings-kathleen-patrick.jpg) 50% 50% / cover
+                no-repeat;
+            transition: 0.3s;
+            &:hover {
+                transition: 0.3s;
                 transform: scale(1.1);
             }
-           
-            .black-bg{
+
+            .black-bg {
                 background-color: rgba(0, 0, 0, 0.808);
                 height: 100%;
                 vertical-align: middle;
                 text-align: center;
-                transition: .5s;
-                &:hover{
+                transition: 0.5s;
+                &:hover {
                     background-color: transparent;
-                    transition: .5s;
-                    h1{
+                    transition: 0.5s;
+                    h1 {
                         color: transparent;
-                        transition: .3s;
+                        transition: 0.3s;
                     }
-                    p{
+                    p {
                         color: transparent;
-                        transition: .3s;
+                        transition: 0.3s;
                     }
-
                 }
-                h1{
-                   margin: auto;
+                h1 {
+                    margin: auto;
                     color: white;
                     padding: 0;
                     font-size: 70px;
                 }
-                p{
+                p {
+                    padding: 30px;
+                    color: white;
+                    margin-top: auto;
+                }
+            }
+        }
+        .picture4 {
+            height: 600px;
+            background: url(/src/img/2824966-CJHGLNZH-7.jpg) 50% 50% / cover no-repeat;
+            transition: 0.3s;
+            &:hover {
+                transition: 0.3s;
+                transform: scale(1.1);
+            }
+
+            .black-bg {
+                background-color: rgba(0, 0, 0, 0.808);
+                height: 100%;
+                vertical-align: middle;
+                text-align: center;
+                transition: 0.5s;
+                &:hover {
+                    background-color: transparent;
+                    transition: 0.5s;
+                    h1 {
+                        color: transparent;
+                        transition: 0.3s;
+                    }
+                    p {
+                        color: transparent;
+                        transition: 0.3s;
+                    }
+                }
+                h1 {
+                    margin: auto;
+                    color: white;
+                    padding: 0;
+                    font-size: 70px;
+                }
+                p {
                     padding: 30px;
                     color: white;
                     margin-top: auto;
@@ -159,10 +240,7 @@ section {
             }
         }
     }
-
 }
-
-
 
 @-webkit-keyframes slide-rotate-hor-top {
     0% {
