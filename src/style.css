@@ -80,19 +80,121 @@ section {
   padding: 20px;
 }
 
-.gallery-photo .painting-img-right {
-  width: 700px;
-  border: 2px solid black;
-  padding: 10x;
+.gallery-photo .painting {
+  width: 500px;
+  margin: auto;
 }
 
-.gallery-photo .painting-img-right img {
+.gallery-photo .painting img {
   max-width: 100%;
 }
 
-.gallery-photo .painting-text {
-  margin-left: 20px;
-  margin-top: 20px;
+.gallery-photo .painting .picture1 {
+  height: 600px;
+  background: url(/src/img/black-and-white-abstract-painting-julia-fine-art.jpg) 50% 50%/cover no-repeat;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.gallery-photo .painting .picture1:hover {
+  -webkit-transition: .3s;
+  transition: .3s;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.gallery-photo .painting .picture1 .black-bg {
+  background-color: rgba(0, 0, 0, 0.808);
+  height: 100%;
+  vertical-align: middle;
+  text-align: center;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.gallery-photo .painting .picture1 .black-bg:hover {
+  background-color: transparent;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.gallery-photo .painting .picture1 .black-bg:hover h1 {
+  color: transparent;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.gallery-photo .painting .picture1 .black-bg:hover p {
+  color: transparent;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.gallery-photo .painting .picture1 .black-bg h1 {
+  margin: auto;
+  color: white;
+  padding: 0;
+  font-size: 70px;
+}
+
+.gallery-photo .painting .picture1 .black-bg p {
+  padding: 30px;
+  color: white;
+  margin-top: auto;
+}
+
+.gallery-photo .painting .picture2 {
+  height: 600px;
+  background: url(/src/img/ed0a7f0730e1506d6a4592c84f235b05.jpg) 50% 50%/cover no-repeat;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.gallery-photo .painting .picture2:hover {
+  -webkit-transition: .3s;
+  transition: .3s;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.gallery-photo .painting .picture2 .black-bg {
+  background-color: rgba(0, 0, 0, 0.808);
+  height: 100%;
+  vertical-align: middle;
+  text-align: center;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.gallery-photo .painting .picture2 .black-bg:hover {
+  background-color: transparent;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.gallery-photo .painting .picture2 .black-bg:hover h1 {
+  color: transparent;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.gallery-photo .painting .picture2 .black-bg:hover p {
+  color: transparent;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.gallery-photo .painting .picture2 .black-bg h1 {
+  margin: auto;
+  color: white;
+  padding: 0;
+  font-size: 70px;
+}
+
+.gallery-photo .painting .picture2 .black-bg p {
+  padding: 30px;
+  color: white;
+  margin-top: auto;
 }
 
 @-webkit-keyframes slide-rotate-hor-top {
@@ -118,4 +220,3 @@ section {
     transform: translateY(0px) rotateX(0deg);
   }
 }
-/*# sourceMappingURL=style.css.map */
